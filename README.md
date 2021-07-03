@@ -1,11 +1,15 @@
-# <p dir="rtl">اولین DnD من!</p>
+# with jQuery
 
-<div dir="rtl">
 
-[مقاله مرتبط](https://juniorfrontend.ir/my1st-dnd)
+## Run 
 
-در 
-[branch 2]()
-همین مینی پروژه با jQuery نوشته شده است. 
+Terminal: 
 
-</div>
+```
+
+yarn global add rollup 
+
+// in directory ./js
+rollup -c
+
+```

@@ -1,5 +1,10 @@
-function DragStart(event) {  
 
+ 
+export function DragStart(event) {  
+
+    // in case using jquery
+    event = event.originalEvent
+    
     // element
     var element = event.currentTarget
 
