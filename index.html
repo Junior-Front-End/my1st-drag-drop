@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css"> 
+</head>
+<body> 
+      
+
+    <ul>
+
+        <!-- drop space -->
+        <div class="DropSpace" dropable="true" 
+        ondragover="DragOver(event)" 
+        ondragenter="DragEnter(event)" 
+        ondragleave="DragLeave(event)" 
+        ondrop="Drop(event)" 
+        >
+        </div>
+        <!-- /drop space -->
+
+        <div draggable="true" ondragstart="DragStart(event)" 
+        class="item" data-order="1">  
+            <li>
+                <a href="#">
+                    item 1
+                </a>
+            </li>
+        </div>
+
+        <!-- drop space -->
+        <div class="DropSpace" dropable="true" 
+        ondragover="DragOver(event)" 
+        ondragenter="DragEnter(event)" 
+        ondragleave="DragLeave(event)" 
+        ondrop="Drop(event)" 
+        >
+        </div>
+        <!-- /drop space -->
+
+        <div draggable="true" ondragstart="DragStart(event)" 
+        class="item" data-order="2">  
+            <li>
+                <a href="#">
+                    item 2
+                </a>
+            </li>
+        </div>
+
+        <!-- drop space -->
+        <div class="DropSpace" dropable="true" 
+        ondragover="DragOver(event)" 
+        ondragenter="DragEnter(event)" 
+        ondragleave="DragLeave(event)" 
+        ondrop="Drop(event)" 
+        >
+        </div>
+        <!-- /drop space -->
+
+        <div draggable="true" ondragstart="DragStart(event)" 
+        class="item" data-order="3">  
+            <li>
+                <a href="#">
+                    item 3
+                </a>
+            </li>
+        </div>
+
+        <!-- drop space -->
+        <div class="DropSpace" dropable="true" 
+        ondragover="DragOver(event)" 
+        ondragenter="DragEnter(event)" 
+        ondragleave="DragLeave(event)" 
+        ondrop="Drop(event)" 
+        >
+        </div>
+        <!-- /drop space -->
+
+        <div draggable="true" ondragstart="DragStart(event)" 
+        class="item" data-order="4">  
+            <li>
+                <a href="#">
+                    item 4
+                </a>
+            </li>
+        </div>
+
+        <!-- drop space -->
+        <div class="DropSpace" dropable="true" 
+        ondragover="DragOver(event)" 
+        ondragenter="DragEnter(event)" 
+        ondragleave="DragLeave(event)" 
+        ondrop="Drop(event)" 
+        >
+        </div>
+        <!-- /drop space -->
+        
+    </ul>
+ 
+    <!-- -------------------------------------- -->
+    <!--           scripts               -->
+    <!-- -------------------------------------- -->
+    <!-- bundle -->
+    <script src="./js/DragStart.js"></script> 
+    <script src="./js/DragOver.js"></script>
+    <script src="./js/DragEnter.js"></script>
+    <script src="./js/DragLeave.js"></script>
+    <script src="./js/Drop.js"></script>
+ 
+
+</body>
+</html>
